@@ -10,18 +10,39 @@ html {
 }
 
 body {
+  background-color: #dbd6cf;
+}
 
+header {
+  last-of-type a:not(.current)
 }
 
 h1 {
-
+  background-color: #79756f;
+  color: #fff;
+  border: 3px solid #595652;
+  border-radius: 10px;
 }
 
-margin
-padding
-list-style-type:
-display
-inline-block
-border-radius
+nav {
+  color: #fff;
+}
+
+.menu {
+  margin: 0;
+  padding: 0;
+  list-style-type: none;
+  text-align: center;
+}
+
+.menu li {
+  display: inline-block;
+  margin: .3em;
+  max-width: 20em;
+  padding: 1em;
+  background-color: #713837;
+  text-align: center;
+}
+
 
 header nav:last-of-type a:not(.current)
