@@ -14,7 +14,6 @@ body {
 }
 
 header {
-  font-family: "Bevan", sans-serif;
   text-align: center;
   background-color: #79756f;
   color: #fff;
@@ -24,12 +23,12 @@ header {
 }
 
 h1 {
-
+  font-family: 'Bevan', sans-serif;
 }
 
 a:link {
   color: #fff;
-  font-family: "Arial";
+  font-family: 'Arial';
 }
 
 .menu li {
