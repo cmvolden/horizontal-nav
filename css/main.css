@@ -1,7 +1,6 @@
 html {
   box-sizing: border-box;
   background-color: #f2f2f2;
-  font-family: 'Bevan', cursive;
   line-height: 1.5;
 }
 
@@ -14,40 +13,33 @@ body {
 }
 
 header {
-
-}
-
-h1 {
+  font-family: 'Bevan', sans-serif;
+  text-align: center;
   background-color: #79756f;
   color: #fff;
-  border: 3px solid #595652;
+  border-top: 3px solid #595652;
+  border-bottom: 3px solid #595652;
   border-radius: 10px;
 }
 
-nav {
+a:link {
   color: #fff;
-}
-
-.menu {
-  margin: 0;
-  padding: 0;
-  list-style-type: none;
-  text-align: center;
+  font-family: "Arial"
 }
 
 .menu li {
   display: inline-block;
   margin: .3em;
-  max-width: 20em;
+  max-width: 50em;
   padding: 1em;
   background-color: #713837;
+  color: #fff;
   text-align: center;
+  border-radius: 10px;
 }
 
 .menu a:hover {
   background-color: #f33;
   color: #fff;
+  padding: 0;
 }
-
-
-header nav:last-of-type a:not(.current)
