@@ -10,7 +10,7 @@ html {
 
 body {
   background-color: #dbd6cf;
-  margin: .3em;
+  margin: auto;
 }
 
 header {
@@ -19,7 +19,6 @@ header {
   color: #fff;
   border-top: 3px solid #595652;
   border-bottom: 3px solid #595652;
-  border-radius: 10px;
 }
 
 h1 {
