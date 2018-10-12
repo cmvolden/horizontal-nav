@@ -14,7 +14,7 @@ body {
 }
 
 header {
-  last-of-type a:not(.current)
+
 }
 
 h1 {
@@ -42,6 +42,11 @@ nav {
   padding: 1em;
   background-color: #713837;
   text-align: center;
+}
+
+.menu a:hover {
+  background-color: #f33;
+  color: #fff;
 }
 
 
