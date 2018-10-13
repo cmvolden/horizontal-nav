@@ -9,7 +9,7 @@ html {
 }
 
 body {
-  margin: auto;
+  margin: inherit;
   background-color: #dbd6cf;
 }
 
@@ -22,13 +22,12 @@ header {
 }
 
 h1 {
-  font-family: 'Bevan', sans-serif;
-  margin: .3em;
+  font-family: 'Bevan', serif;  margin: .3em;
 }
 
 a:link {
   color: #fff;
-  font-family: 'Arial';
+  font-family: 'Arial', sans-serif;
   text-decoration: none;
 }
 
@@ -47,5 +46,5 @@ a:link {
 .menu a:hover {
   background-color: #f33;
   color: #fff;
-  padding: .75em;
+  padding: inherit;
 }
