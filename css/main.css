@@ -29,6 +29,8 @@ a:link {
   color: #fff;
   font-family: 'Arial', sans-serif;
   text-decoration: none;
+  padding: .75em;
+  border-radius: 10px;
 }
 
 .menu li {
@@ -46,5 +48,6 @@ a:link {
 .menu a:hover {
   background-color: #f33;
   color: #fff;
-  padding: inherit;
+  padding: .75em;
+  border-radius: 10px;
 }
