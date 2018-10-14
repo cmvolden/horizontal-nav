@@ -22,7 +22,7 @@ header {
 }
 
 h1 {
-  font-family: "Bevan", serif;
+  font-family: "Bevan";
   margin: .3em;
 }
 
@@ -35,7 +35,6 @@ h1 {
   text-align: center;
   border-radius: 10px;
   list-style-type: none;
-  font-size: 20px;
 }
 
 a:link {
@@ -50,4 +49,5 @@ a:link {
   background-color: #f33;
   color: #fff;
   border-radius: 10px;
+  padding: inherit;
 }
