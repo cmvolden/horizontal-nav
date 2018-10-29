@@ -22,7 +22,7 @@ header {
 }
 
 h1 {
-  font-family: 'Bevan', cursive;
+  font-family: Bevan, serif;
   display: block;
   margin: .3em;
 }
@@ -30,7 +30,7 @@ h1 {
 .menu li {
   display: inline-block;
   margin: .3em;
-  padding: .6em;
+  padding: .5em .75em;
   background-color: #713837;
   color: #fff;
   text-align: center;
@@ -40,9 +40,9 @@ h1 {
 
 a:link {
   color: #fff;
-  font-family: 'Arial', sans-serif;
+  font-family: Arial, sans-serif;
   text-decoration: none;
-  padding: .6em;
+  padding: .5em .75em;
   border-radius: 10px;
 }
 
@@ -51,5 +51,5 @@ a:link {
   border-color: #f33;
   color: #fff;
   border-radius: .3em;
-  padding: inherit;
+  padding: .5em .75em;
 }
