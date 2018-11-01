@@ -2,6 +2,7 @@ html {
   box-sizing: border-box;
   background-color: #dbd6cf;
   line-height: 1.5;
+  margin: 0;
 }
 
 *, *::before, *::after {
@@ -24,18 +25,24 @@ header {
 h1 {
   font-family: Bevan, serif;
   display: block;
-  margin: .3em;
+  margin: 0;
+  padding: 0;
 }
 
 .menu li {
   display: inline-block;
-  margin: .3em;
-  padding: .5em .75em;
+  margin: 2px 0;
+  padding: .6em;
   background-color: #713837;
   color: #fff;
   text-align: center;
-  border-radius: 10px;
+  border-radius: 5px;
   list-style-type: none;
+}
+
+ul {
+  margin: 0;
+  padding: 0;
 }
 
 a:link {
@@ -43,13 +50,19 @@ a:link {
   font-family: Arial, sans-serif;
   text-decoration: none;
   padding: .5em .75em;
-  border-radius: 10px;
+  border-radius: 5px;
+}
+
+.menu a:hover {
+  background-color: #f33;
+  border-color: #f33;
+  border-radius: 5px;
+  padding: .5em .75em;
 }
 
 .menu li:hover {
   background-color: #f33;
   border-color: #f33;
-  color: #fff;
-  border-radius: .3em;
+  border-radius: 5px;
   padding: .5em .75em;
 }
